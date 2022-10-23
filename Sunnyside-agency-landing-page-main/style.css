@@ -1,0 +1,453 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+}
+
+.header {
+    height: 100vh;
+    background: url(./images/mobile/image-header.jpg) no-repeat center;
+    background-size: cover;
+}
+
+.upper {
+    /* display: flex; */
+    padding: 2rem;
+}
+
+.logo img {
+    margin-top: .7rem;
+    /* margin-left: .4rem; */
+    width: 10rem;
+}
+/* mobile navigation */
+
+.mobile-nav{
+    display: none;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    margin: -5rem -2rem;
+    background-color: rgb(53, 184, 250);
+    opacity: .9;
+
+}
+
+.mobile-menu{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 8rem;
+    /* width: 20rem; */
+    /* margin-right: 8rem; */
+    /* text-align: center; */
+}
+
+.mobile-menu a ,.mobile-menu button{
+    border-bottom: solid white;
+    border-top: solid white;
+    width: 20rem ;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 3rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+
+}
+
+.mobile-menu a:hover{
+    border:solid hsl(7, 99%, 70%);
+    color: hsl(7, 99%, 70%);
+}
+.mobile-menu button:hover{
+    border: hsl(7, 99%, 70%);
+    color: hsl(7, 99%, 70%);
+}
+#open,#close{
+    float: right;
+    margin: -2.4rem 0;
+    font-size: 2rem;
+    background: transparent;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#close{
+    /* float: right; */
+    margin: 2.4rem;
+
+}
+
+
+
+.nav{
+    display: none;
+}
+.nav a {
+    text-decoration: none;
+    color: white;
+    padding: .3rem .7rem;
+    margin: 1rem;
+    font-size: 18px;
+}
+
+.nav a:hover {
+    border-bottom: solid hsl(7, 99%, 70%);
+}
+
+.nav button {
+    padding: 1.2rem 2.7rem;
+    border-radius: 3rem;
+    font-weight: 700;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-left: 1.3rem;
+    border: none;
+    cursor: pointer;
+}
+
+.nav button:hover {
+    background-color: rgb(53, 184, 250);
+    color: white;
+}
+
+.header-center {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.heading {
+    font-size: 2.8rem;
+    color: white;
+    letter-spacing: .6rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-top: 2rem;
+}
+
+.arrow {
+    margin-top: 3rem;
+}
+
+/* ====ABOUT======= */
+
+.about{
+    display: flex;
+    flex-direction: column;
+}
+.pic-first{
+    flex-direction: column-reverse;
+}
+
+.left h1 {
+    margin: 4rem 2rem 2rem 2rem;
+    font-size: 2.3rem;
+    font-weight: 900;
+    color: hsl(212, 27%, 19%);
+    text-align: center;
+}
+
+.left p {
+    margin: 0 4rem;
+    font-size: 18px;
+    line-height: 1.8rem;
+    color: hsl(213, 9%, 39%);
+    text-align: center;
+}
+
+.left a {
+    margin-bottom: 3rem;
+    display: grid;
+    place-items: center;
+    font-size: .98rem;
+    font-weight: 900;
+    letter-spacing: .08rem;
+    text-transform: uppercase;
+    line-height: 6rem;
+    color: hsl(212, 27%, 19%);
+}
+
+.first a {
+    text-decoration-color: hsl(51, 97%, 74%);
+    text-decoration-thickness: .4rem;
+}
+
+.first a:hover {
+    text-decoration-color: hsl(51, 100%, 49%);
+}
+
+.second a {
+    text-decoration-color: hsl(7, 84%, 88%);
+    text-decoration-thickness: .4rem;
+}
+
+.second a:hover {
+    text-decoration-color: hsl(7, 99%, 70%);
+}
+
+.right img {
+    display: flex;
+    width:100%;
+}
+
+.join-about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 100vh;
+}
+
+.graphic {
+    background: url(./images/mobile/image-graphic-design.jpg) no-repeat center;
+    background-size: cover;
+    color: hsl(167, 40%, 24%);
+}
+
+.Photography {
+    background: url(./images/mobile/image-photography.jpg) no-repeat center;
+    background-size: cover;
+    color: hsl(198, 62%, 26%);
+}
+
+.join-about p {
+    margin: 1.8rem 3rem 4rem 3rem;
+    font-size: 16px;
+    line-height: 1.7rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.join-about h1 {
+    margin-right: 0rem;
+    text-align: center;
+
+    font-weight: 900;
+    font-size: 1.8rem;
+}
+
+/* services */
+
+.service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.service-head {
+    text-transform: uppercase;
+    letter-spacing: .3rem;
+    font-size: .7rem;
+    color: hsl(232, 10%, 55%);
+}
+
+.service-head h1 {
+    align-items: center;
+    font-weight: 900;
+}
+
+.client {
+    display: flex;
+    flex-direction: column;
+    margin-top: 5rem;
+}
+
+.profile {
+    display: grid;
+    place-items: center;
+    text-align: center;
+}
+
+.profile img {
+    border-radius: 50%;
+    width: 5rem;
+}
+
+.profile p {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2rem;
+    margin: 4rem 5rem;
+    color: hsl(213, 9%, 39%);
+}
+
+.name {
+    font-weight: 900;
+    margin-bottom: .8rem;
+    color: hsl(212, 27%, 19%);
+}
+
+.role {
+    font-weight: 600;
+    font-size: 13px;
+    color: hsl(210, 4%, 67%);
+    margin-bottom: 5rem;
+}
+
+/* ====project==== */
+
+.project {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.project img {
+    width: 25%;
+}
+
+/* ====contact==== */
+
+.contact {
+    display: grid;
+    place-items: center;
+    background-color: hsl(169, 77%, 76%);
+}
+
+.contact-header {
+    margin-top: 4rem;
+    color: hsl(167, 40%, 24%);
+}
+
+.contact-nav {
+    margin: 3rem;
+}
+
+.contact-nav a {
+    margin: 2rem;
+    font-size: 18px;
+    text-decoration: none;
+    color: hsl(168, 34%, 41%);
+}
+
+.contact-nav a:hover {
+    color: white;
+}
+
+.social {
+    margin: 1rem 0 3rem 0;
+}
+
+.social img {
+    margin: .8rem;
+}
+
+.social img:hover {
+    opacity: .4;
+    cursor: pointer;
+}
+
+@media screen and (min-width:650px) {
+
+    .logo img {
+        margin-left: .8rem;
+        width: 12rem;
+    }
+    .header {
+        background: url(./images/desktop/image-header.jpg) no-repeat center;
+        background-size: cover;
+    }
+
+    #open{
+        display: none;
+    }
+
+    .mobile-nav{
+        display: none;
+    }
+    
+    .nav {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+    }
+    .upper{
+        display: flex;
+    }
+    .heading {
+        font-size: 3.5rem;
+    }
+
+    .arrow {
+        margin-top: 6rem;
+    }
+
+    .about {
+        flex-direction: row;
+    }
+
+    .left h1 {
+        margin: 10rem 12.9rem 2rem 10rem;
+        font-size: 2.3rem;
+        font-weight: 900;
+        color: hsl(212, 27%, 19%);
+        text-align: left;
+    }
+
+    .left p {
+        margin: 0 10rem;
+        text-align: left;
+    }
+    .left a {
+        margin: 0rem 10rem;
+        display: block;
+    }
+    .right img {
+        width: 48rem;
+    }
+    .join-about {
+        display: flex;
+        flex-direction: column;
+        height: 85vh;
+        width: 50vw;
+    }
+    .join-about p {
+        margin: 1.8rem 4.6rem 4rem 4.6rem;
+        font-size: 16px;
+        line-height: 1.7rem;
+        font-weight: 700;
+        text-align: center;
+    }
+    
+    .graphic {
+        background: url(./images/desktop/image-graphic-design.jpg) no-repeat center;
+        background-size: cover;
+        color: hsl(167, 40%, 24%);
+    }
+    
+    .Photography {
+        background: url(./images/desktop/image-photography.jpg) no-repeat center;
+        background-size: cover;
+        color: hsl(198, 62%, 26%);
+    }
+    
+    .service {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 10rem;
+    }
+
+    .client {
+        flex-direction: row;
+        margin-top: 5rem;
+    }
+    .profile p {
+        margin: 4rem .7rem 4rem .7rem;
+    }
+    .role {
+        font-weight: 600;
+        font-size: 13px;
+        color: hsl(210, 4%, 67%);
+        margin-bottom: 0rem;
+    }
+}
