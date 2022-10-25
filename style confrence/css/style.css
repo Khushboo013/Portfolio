@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: #656f77;
+    font-family: 'Nanum Myeongjo', serif;
+}
+
+/* <<<....header....> */
+
+.head, .footer {
+    /* border: 2px solid red; */
+    /* display: flexbox; */
+    /* position: relative; */
+    background-color: #293f50;
+    height: 499px;
+    color: white;
+}
+
+H1 {
+    top: 3%;
+    left: 17%;
+    position: absolute;
+    /* position: relative; */
+    font-size: 48px;
+    font-weight: lighter;
+    color: white;
+}
+
+h1 a:hover {
+    color: #656f77;
+}
+
+.date {
+    left: 61%;
+    top: 8%;
+    position: absolute;
+    font-size: 21px;
+    /* position: relative; */
+}
+
+.nav {
+    float: left;
+    left: 47%;
+    top: 12%;
+    position: absolute;
+    /* position: relative; */
+}
+
+.nav ul {
+    display: flex;
+}
+
+.nav li {
+    list-style: none;
+    margin: 12PX;
+    letter-spacing: 2PX;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.nav li a {
+    color: white;
+}
+
+.nav li a:hover {
+    color: #656f77;
+}
+
+.text {
+    top: 25%;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    line-height: 46px;
+    /* position: relative; */
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: lighter;
+}
+
+.text p {
+    font-size: 25px;
+    padding: 0px 342px;
+    color: white;
+}
+.btn{
+    margin: 33px;
+    
+}
+.btn a {
+    margin: 24px;
+    cursor: pointer;
+    outline: none;
+    background: none;
+    border-style: none;
+    border: 2px solid white;
+    border-radius: 5px;
+    padding: 21px 25px;
+}
+
+.btn  a:hover {
+    color: #656f77;
+    background-color: white;
+}
+
+/* <<..middle..>> */
+
+.middle {
+    /* border: 2px solid red; */
+    display: flex;
+    margin: 22px 240px;
+    padding: 22px;
+    height: 420px;
+}
+
+.box {
+    /* display: flex; */
+    /* border: 2px solid green; */
+    box-sizing: border-box;
+    padding: 5px 13px;
+    margin-left: 22px;
+}
+
+img {
+    border-radius: 5px;
+}
+
+h5 {
+    line-height: 65px;
+    display: inline;
+}
+
+h3 {
+    margin: 18px 0;
+}
+
+.box h3 a {
+    color: #656f77;
+}
+
+.box h3 a:hover {
+    color: rgb(146, 145, 145);
+}
+
+/* <<....footer...>> */
+
+.footer {
+    /* border: 2px solid red; */
+    /* position: absolute */
+    height: 120px;
+}
+
+.footer .nav {
+    /* border: 2px solid blue; */
+    top: 139%;
+    font-size: medium;
+    left: 52%;
+}
+
+.copy {
+    left: 17%;
+    position: absolute;
+    top: 141%;
+}
