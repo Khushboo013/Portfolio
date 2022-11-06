@@ -3,17 +3,17 @@
     padding: 0;
 }
 .pic1{
-  background-image: url(/img/bg1.jpg);
+  background-image: url(./img/bg1.jpg);
   min-height: 100vh;
 }
 
 .pic2{
-  background-image: url(/img/bg2.jpg);
+  background-image: url(./img/bg2.jpg);
   min-height: 400px;
 }
 
 .pic3{
-  background-image: url(/img/bg3.jpg);
+  background-image: url(./img/bg3.jpg);
   min-height: 400px;
 }
 
