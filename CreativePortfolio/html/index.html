@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Portfolio</title>
+    <link rel="stylesheet" href="/css/index.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Langar&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div id="nav" class="full">
+        <div class="navi">
+            <ul>
+                <li><a href="javascript:void(0)" class="closebtn" onclick="closeNav()">✖</a></li>
+                <li><a onclick="hide()" href="#main1">Home</a></li>
+                <li><a onclick="hide1()" href="#who">About</a></li>
+                <li><a onclick="hide2()" href="#what">Portfolio</a></li>
+                <li><a onclick="hide3()" href="#where">Contact</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div id="menu" style="font-size:30px;cursor:pointer" onclick="openNav()">☰</div>
+
+    <div class="main" id="main1">
+        <h1>Hi and Welcome on my Ghar.</h1>
+        <h2><a onclick="hide1()" href="#who">Who </a>Am I? 😎</h2>
+        <h2><a onclick="hide2()" href="#what">What </a>I Do? 🤔</h2>
+        <h2><a onclick="hide3()" href="#where">Where </a>to find Me? 🧐</h2>
+    </div>
+
+    <div id="who">
+            <h1> who am i? 😉</h1>
+            <h2> my name is khushboo gupta.
+                i am web designer and developer.
+                over the years of everyday practice,
+                i built solid expertise in html, css and javascript.
+                i focus on creating clean and unique design.
+            </h2>
+    </div>
+
+    <div id="what">
+        <h1>what i do? 👩‍💻</h1>
+        <h2>nothing yet!!</h2>
+    </div>
+
+    <div id="where">
+        <h1>where to find me? 🌍</h1>
+        <h2>I currently live in Mars!!</h2>
+    </div>
+
+    <script>
+        function openNav() {
+            document.getElementById("nav").style.width = "200px";
+            document.getElementById("menu").style.display = "none";
+        }
+
+        function closeNav() {
+            document.getElementById("nav").style.width = "0";
+            document.getElementById("menu").style.display = "block";
+        }
+        
+        function hide(){
+            document.getElementById("main1").style.display = "block";
+            document.getElementById("who").style.display = "none";
+            document.getElementById("what").style.display = "none";
+            document.getElementById("where").style.display = "none";
+        }
+
+        function hide1(){
+            document.getElementById("main1").style.display = "none";
+            document.getElementById("who").style.display = "block";
+            document.getElementById("what").style.display = "none";
+            document.getElementById("where").style.display = "none";
+        }
+        
+        function hide2(){
+            document.getElementById("main1").style.display = "none";
+            document.getElementById("who").style.display = "none";
+            document.getElementById("where").style.display = "none";
+            document.getElementById("what").style.display = "block";
+        }
+
+        function hide3(){
+            document.getElementById("main1").style.display = "none";
+            document.getElementById("who").style.display = "none";
+            document.getElementById("what").style.display = "none";
+            document.getElementById("where").style.display = "block";
+        }
+    </script>
+
+
+  
+
+
+
+
+</body>
+
+</html>

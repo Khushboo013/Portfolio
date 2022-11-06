@@ -1,0 +1,110 @@
+* {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Langar', cursive;
+    color: #FFA400;
+}
+
+body {
+    background:  #F5D76E;
+}
+
+.full {
+    background-color:  #FFA400;
+    float: right;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    overflow-x: hidden;
+    width: 0;
+    z-index: 1;
+    transition: 0.5s;
+}
+
+.navi {
+    text-align: center;
+}
+
+li {
+    border-bottom: 1px dashed #FFB61E;
+    list-style: none;
+}
+
+li a {
+    padding: 10px 50px;
+    padding-right: 55px;
+    text-decoration: none;
+    font-size: 25px;
+    color: white;
+    display: block;
+    text-shadow: 1px 1px 0 #666;
+}
+li a:hover{
+    background-color :#f7c465;
+}
+
+.closebtn {
+    font-size: 32px;
+    color: white;
+}
+
+#menu {
+    float: right;
+    margin-right: 22px;
+    height: 100vh;
+    top: 0;
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+    background-color: #FFA400;
+    color: white;
+    text-shadow: 2px 2px 0 #666;
+    padding: 22px;
+    transition: 0.5s
+    /* position : */
+}
+
+.main {
+    /* position: absolute; */
+    /* margin: 10%; */
+    /* margin-left: 37%; */
+    /* top: 30%; */
+    padding: 10%;
+    justify-content: center;
+    overflow : hidden;
+}
+
+h1, h2 {
+    display: flex;
+    padding: 8px;
+    justify-content: center;
+}
+
+h2 a {
+    padding-right: 15px;
+    text-decoration-style: dashed;
+    color :#FFA400;
+}
+
+h2 a:hover{
+    color:#fcb024;
+}
+
+#who , #what , #where{
+    display: none;
+    width: 100vw;
+    padding: 10rem ;
+    /* overflow: hidden; */
+    /* position: absolute; */
+    justify-content: center;
+    /* place-content: center; */
+    text-align: center;
+    background-color: #666;
+    height: 100vh;
+    z-index: 1;
+    transition: .5s}
+
+   
+    
